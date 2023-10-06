@@ -1,0 +1,344 @@
+.boton {
+    border-radius: 0.5em;
+    border: solid;
+    margin: 0 auto;
+    padding: 2em;
+    width: fit-content;
+}
+
+.boton:hover {
+    background: #b9b3b3;
+}
+
+.boton:active {
+    background: aquamarine;
+}
+
+.contacto {
+    border-top: solid;
+    border-bottom: solid;
+    padding: 0.8em;
+}
+
+@media (min-width: 800px) {
+    body {
+        margin: 0 auto;
+        width: 90%;
+        background-color: white;
+    }
+
+    .bloqueDosColumnas {
+        display: grid;
+        grid-template-columns: 33% 33%;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 3em;
+        justify-content: center;
+    }
+
+    .bloqueTresColumnas {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: auto;
+        column-gap: 2em;
+        justify-content: center;
+        margin-bottom: 4em;
+
+    }
+
+
+    .cabecera {
+        align-items: center;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 12% 30% 55%;
+        grid-template-rows: auto;
+        margin-top: 1em;
+        opacity: 80%;
+        position: sticky;
+        top: 0;
+    }
+
+    .cabecera a {
+        text-decoration: none;
+    }
+
+    .cabecera h1 {
+        color: black;
+    }
+
+    .credencial {
+        margin: 3em 0;
+        display: grid;
+        align-items: center;
+        row-gap: 1em;
+    }
+
+    .credencial label {
+        font-family: "Gurajada", serif;
+        font-size: 2em;
+        margin: 0 auto;
+        width: 60%;
+
+    }
+
+    .credencial input {
+        border-radius: 0.3em;
+        border: 0.15em solid;
+        font-family: "Gurajada", serif;
+        font-size: 2em;
+        height: 2em;
+        margin: 0 auto;
+        text-align: center;
+        width: 60%;
+    }
+
+    form {
+        margin-bottom: 10em;
+    }
+
+    .imgMenu img {
+        width: 250px;
+        height: 200px;
+        border-radius: 0.5em;
+    }
+
+    .imgVino img {
+        width: 200px;
+        height: 250px;
+        border-radius: 0.5em;
+    }
+
+    .imgVino {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo {
+        margin: 1em;
+    }
+
+    a:hover #logo {
+        padding-right: 0.2em;
+        border: 0.2em black;
+    }
+
+    main {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: right;
+    }
+
+    .nav a {
+        color: black;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: "Gurajada", serif;
+        padding: 1em;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
+    .nombrePlato {
+        margin-top: 0.2em;
+    }
+
+    .plato {
+        display: inline;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .plato h1, h2 {
+        margin: 0;
+        text-align: center;
+        font-family: "Gurajada", serif;
+        height: 1em;
+    }
+
+
+    #textoPortada {
+        font-family: "MathJax_Math", serif;
+    }
+
+    #textoPortada:hover {
+        text-decoration: underline;
+    }
+
+
+    .titulo {
+        font-family: "Gurajada", serif;
+        font-size: 3.2em;
+        text-align: center;
+        font-style: italic;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width:1600px) {
+    body {
+        margin: 0 auto;
+        width: 95%;
+        background-color: white;
+    }
+
+    .bloqueDosColumnas {
+        display: grid;
+        grid-template-columns: 41% 41%;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 3em;
+        justify-content: center;
+    }
+
+    .bloqueTresColumnas {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: auto;
+        column-gap: 2em;
+        justify-content: center;
+        margin-bottom: 4em;
+
+    }
+
+    .cabecera {
+        align-items: center;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 7% 35% 55%;
+        grid-template-rows: 100%;
+        margin-top: 1em;
+        opacity: 80%;
+        position: sticky;
+        top: 0;
+    }
+
+    .cabecera a {
+        text-decoration: none;
+    }
+
+    .cabecera h1 {
+        color: black;
+    }
+
+    .credencial {
+        margin: 3em 0em;
+        display: grid;
+        align-items: center;
+        row-gap: 1em;
+    }
+
+    .credencial label {
+        font-family: "Gurajada", serif;
+        font-size: 2em;
+        margin: 0 auto;
+        width: 60%;
+
+    }
+
+    .credencial input {
+        border-radius: 0.3em;
+        border: 0.15em solid;
+        font-family: "Gurajada", serif;
+        font-size: 2em;
+        height: 2em;
+        margin: 0 auto;
+        text-align: center;
+        width: 60%;
+    }
+
+    form {
+        margin-bottom: 10em;
+    }
+
+    .imgMenu img {
+        width: 450px;
+        height: 300px;
+        border-radius: 0.5em;
+    }
+
+    .imgVino img {
+        width: 400px;
+        height: 500px;
+        border-radius: 0.5em;
+    }
+
+    .imgVino {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo {
+        margin: 1em;
+    }
+
+    a:hover #logo {
+        padding-right: 0.2em;
+        border: 0.2em black;
+    }
+
+    main {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: right;
+    }
+
+    .nav a {
+        color: black;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: "Gurajada", serif;
+        padding: 1em;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
+    .nombrePlato {
+        margin-top: 0.2em;
+    }
+
+    .plato {
+        display: inline;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .plato h1, h2 {
+        margin: 0;
+        text-align: center;
+        font-family: "Gurajada", serif;
+        height: 1em;
+    }
+
+
+    #textoPortada {
+        font-family: "MathJax_Math", serif;
+    }
+
+    #textoPortada:hover {
+        text-decoration: underline;
+    }
+
+
+    .titulo {
+        font-family: "Gurajada", serif;
+        font-size: 3.2em;
+        text-align: center;
+        font-style: italic;
+        margin-top: 1em;
+    }
+}
